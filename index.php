@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light pt-3 pb-3">
@@ -15,7 +15,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a href="home.html" class="navbar-brand me-lg-5">LOGO</a>
+            <a href="index.php" class="navbar-brand me-lg-5">LOGO</a>
 
             <div class="collapse navbar-collapse ms-lg-5" id="navbar">
                 <ul class="nav navbar-nav">
@@ -39,7 +39,7 @@
             </form>
 
             <div class="btn-group">
-                <a href="login.html" class="btn btn-dark">Sign In</a>
+                <a href="login.php" class="btn btn-dark">Sign In</a>
             </div>
         </div>
     </nav>
